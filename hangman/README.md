@@ -3,7 +3,7 @@
 To complie the code please type:
 
 ``` 
-python hangman.py
+python Hangman.py
 ```
 
 There are 3 category:
