@@ -11,9 +11,3 @@ jsonData= json.dumps(xmltodict.parse(xmlData), indent=4)
 
 with open(inputFile[:-4]+".json", 'w') as f:
     f.write(jsonData)
-
-#print("XML input (weather.xml):")
-#print(xmlString)
-
-#print("\nJSON output(weather.json):")
-#print(jsonString)
